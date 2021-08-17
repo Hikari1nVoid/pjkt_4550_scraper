@@ -4,7 +4,7 @@ from bs4 import BeautifulSoup
 import time
 a=120
 f = open("result.txt","a")
-while a<130:
+while a<200:
 	a+=1
 	url="http://dm.sakinorva.net/view?id="+str(a)
 	page=requests.get(url)
